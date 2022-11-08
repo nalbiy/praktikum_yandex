@@ -1,0 +1,9 @@
+{{#each chats}}
+<div class="userchat">
+    <a class="userchatfora{{#if active}} userchatactive{{/if}}">
+    <img class="userimg" src="{{img}}">
+    <h5>{{user}} {{id}}</h5>
+    <p>{{lastmessege}}</p>
+</a>
+</div>
+{{/each}}

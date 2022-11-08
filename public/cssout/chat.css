@@ -1,0 +1,115 @@
+@import url("vars.css");
+
+.full-chat-block {
+    width: 350px;
+    background: var(--white);
+    text-align: center;
+    overflow: auto;
+    scrollbar-width: none;
+    height: max-content;
+    transition: max-height 0.2s ease-out;
+}
+
+.outer-container {
+    min-height: 500px;
+    bottom: 0%;
+    position: relative;
+}
+
+.chat-container {
+    max-height: 500px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    scroll-behavior: smooth;
+    hyphens: auto;
+    
+}
+
+.usermessages{
+    overflow-y: auto;
+    display: flex;
+    width: 316px;
+    height: 540px;
+}
+
+
+.botText {
+    color: var(--bottextcolor);
+    font-family: Helvetica, serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+}
+
+.botText span {
+    line-height: 1.5em;
+    display: inline-block;
+    background: var(--botmesbgcolor);
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom-left-radius: 2px;
+    max-width: 80%;
+    margin-left: 10px;
+    animation: floatup .5s forwards
+}
+
+.userText {
+    color: var(--white);
+    font-family: Helvetica, serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+    clear: both;
+}
+
+.userText span {
+    line-height: 1.5em;
+    display: inline-block;
+    background: var(--usermesbgcolor);
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom-right-radius: 2px;
+    max-width: 80%;
+    margin-right: 10px;
+    animation: floatup .5s forwards
+}
+
+.userchatfora {
+    text-decoration: none;
+}
+
+.userimg {
+    float:left;
+    height: 45px;
+    width: 45px;
+    margin: 2px 5px 2px 2px;
+}
+
+.userchat p {
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 12px;
+}
+
+.userchat {
+    border: solid black;
+    margin: 5px;
+    height: 50px;
+    color: black;
+
+}
+
+.userchat h5 {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.userchatactive {
+    color: var(--textcoloractive);
+    background: black;
+
+}

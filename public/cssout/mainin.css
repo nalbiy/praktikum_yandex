@@ -1,0 +1,74 @@
+@import url("vars.css");
+li {
+    list-style-type: none;
+    padding: 0;
+}
+.testmain {
+    display: inline-flex; /* or inline-flex */
+    border: solid var(--black);
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: flex-start; /* выравнивание с начала */
+    height: 558px;
+    margin: 5px;
+}
+
+.itemtest {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border: solid var(--red);
+    width: 375px;
+    overflow: auto;
+
+}
+
+.testformessage{
+    border: solid var(--red);
+    height: 100%;
+    overflow: auto;
+}
+
+.testforbtn{
+    border: solid var(--yellow);
+}
+
+
+.mainmenu {
+    display: inline-flex; /* or inline-flex */
+    border: solid var(--black);
+    flex-direction: row;
+    flex-wrap:nowrap;
+    margin: 5px;
+    justify-content: flex-start; /* выравнивание с начала */
+    padding: 0;
+
+}
+
+.menuitem{
+    text-decoration: none;
+    background-color: var(--menubackgrong);
+    padding: 8px;
+}
+
+.menuitem a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.active {
+    background-color: var(--black);
+    color: aliceblue;
+    padding: 8px;
+}
+
+.active a {
+    text-decoration: none;
+    color: var(--textcoloractive);
+}
+
+.error {
+    text-align: center;
+    margin: auto;
+    font-size: 5em
+}

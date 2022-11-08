@@ -1,0 +1,27 @@
+
+form.form-example {
+    display: table;
+    margin: 5px
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 2px;
+}
+.errormessage{
+    margin-bottom: 5px;
+    color: red;
+}
+.errorinput {
+    border-color: red!important;
+    height: 15px;
+    font-size: 8pt!important;
+}
+
+label {
+    padding-right: 10px;
+}

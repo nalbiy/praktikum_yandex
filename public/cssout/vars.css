@@ -1,0 +1,14 @@
+:root{
+    --black: black;
+    --white: white;
+    --red: red;
+    --green: green;
+    --yellow: yellow;
+    --menubackgrong: #ddd;
+    --textcoloractive: aliceblue;
+    --bgchatcolor: rgb(178, 158, 158);
+    --chatinputcolor: #e0d8d8;
+    --bottextcolor: #000;
+    --botmesbgcolor: #e0e0e0;
+    --usermesbgcolor: #5ca6fa
+}

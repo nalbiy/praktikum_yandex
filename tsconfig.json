@@ -1,0 +1,22 @@
+{
+  "exclude": ["server.js"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2021",
+    "declaration": false,
+    "module": "ES6",
+    "moduleResolution": "Node",
+    "strict": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "src/*": [
+        "src/*"
+      ]
+    }
+  }
+}
